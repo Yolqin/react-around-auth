@@ -1,0 +1,19 @@
+.dialog__close-button {
+  position: absolute;
+  top: -42px;
+  right: -40px;
+  background: url('../../../images/Close-Icon.svg') no-repeat center;
+  border: none;
+  cursor: pointer;
+  transition: opacity .5s ease-out;
+  min-width: 41px;
+  min-height: 41px;
+}
+
+.dialog__close-button:focus {
+  outline: auto 1px;
+}
+
+.dialog__close-button:hover {
+  opacity: .6;
+}

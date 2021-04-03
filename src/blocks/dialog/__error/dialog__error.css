@@ -1,0 +1,6 @@
+@import url('./_visible/dialog__error_visible.css');
+
+.dialog__error {
+  padding: 5px 0 0;
+  width: 100%;
+}

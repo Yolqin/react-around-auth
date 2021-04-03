@@ -1,0 +1,8 @@
+.dialog__button_disabled {
+  color: #000;
+  opacity: .2;
+  cursor: pointer;
+  border: 1px solid #000000;
+  border-radius: 2px;
+  background: none;
+}
