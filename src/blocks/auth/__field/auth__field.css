@@ -1,0 +1,17 @@
+.auth__field {
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.auth__field_error {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0;
+    padding: 0;
+    color: #ff0000;
+}

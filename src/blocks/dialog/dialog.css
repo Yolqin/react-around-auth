@@ -1,0 +1,31 @@
+@import url('./__close-button/dialog__close-button.css');
+@import url('./__container/dialog__container.css');
+@import url('./__form/dialog__form.css');
+@import url('./__input/dialog__input.css');
+@import url('./__button/dialog__button.css');
+@import url('./__header/dialog__header.css');
+@import url('./__figure/dialog__figure.css');
+@import url('./__image/dialog__image.css');
+@import url('./__image-caption/dialog__image-caption.css');
+@import url('./__error/dialog__error.css');
+@import url('./__fieldset/dialog__fieldset.css');
+@import url('./__infotool/dialog__infotool.css');
+
+
+
+.dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #00000080; 
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+
