@@ -220,6 +220,10 @@ function App() {
                     <Footer/>
                 </div>
 
+                <Route path='/'>
+                    { loggedIn ? <Redirect to='/' /> : <Redirect to='/signin' /> }
+                </Route>
+
                 <InfoTooltip isSuccess={isSuccess} isOpen={isInfoTooltip} onClose={closeAllPopups}/>
                 <EditProfilePopup isOpen={profileDialog} onClose={closeAllPopups} onUpdateUser={handleUpdateUser}/>
                 <EditAvatarPopup isOpen={avatarDialog} onClose={closeAllPopups} onUpdateAvatar={handleUpdateAvatar}/>
